@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* game area styling */
+.game-area {
+    background-color: #E6ECF0;
+    width: 80%;
+    height: 60vh;
+    margin: 1rem auto 1rem auto;
+    padding: 3rem;
+}
+
+.question-area {
+    width: 60%;
+    font-size: 3rem;
+    margin: auto;
+    padding: 4rem 0;
+}
+.question-area span {
+    padding: 0 15px;
+}
+#answer-input {
+    border: none;
+    color: #445361;
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    font-size: 1.2rem;
+}
+
+/* score area */
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.score {
+    display: inline-block;
+    padding: 25px;
+}
+
+#correct-score {
+    color: green;
+}
+#incorrect-score {
+    color: red;
+}
+/* Buttons */
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: white;
+    width: 250px;
+    height: 60px;
+}
+
+.btn--gray {
+    background-color: #445361;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.btn--big {
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+}
+.btn--big:after {
+    content: attr(data-type);
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+    left: -0.5em;
+}
+.btn--green {
+    border-color: green;
+    color: green;
+}
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
+.btn--orange {
+    border-color: orange;
+    color: orange;
+}
+.btn--red {
+    border-color: red;
+    color: red;
+}
