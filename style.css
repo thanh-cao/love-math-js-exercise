@@ -88,15 +88,34 @@ body {
     border-color: green;
     color: green;
 }
+.btn--green:active, .btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
 .btn--blue {
     border-color: blue;
     color: blue;
 }
+.btn--blue:active, .btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
 .btn--orange {
     border-color: orange;
     color: orange;
 }
+.btn--orange:active, .btn--orange:hover {
+    background-color: darkorange;
+    color: white;
+}
+
 .btn--red {
     border-color: red;
     color: red;
+}
+.btn--red:active, .btn--red:hover {
+    background-color: darkred;
+    color: white;
 }
